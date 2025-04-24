@@ -234,3 +234,167 @@
     top: -25px;
     right: -25px;
 }
+
+.footer{
+    background: #0c0c0c;
+    color: #006241;
+    padding: 25px 15px;
+}
+
+.footer__contaider-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link-user{
+    color: #006241;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer__conteider-social{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__conteider-social i{
+    color: #006241;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.footer__link-contact{
+    text-decoration: none;
+    color:#04a01b;
+}
+
+@media (min-width: 768px) {
+    .header__conteiner-user-mobile{
+        display: none;
+    }
+    .header__conteiner-login{
+        display: block;
+    }
+    .header__conteiner-login i{
+        color: #fff;
+        font-size: 33px;
+    }
+    .header__nav {
+        display: block;
+    }
+    .header__nav-link{
+        text-decoration: none;
+        color: #fff;
+        margin-left: 15px;
+    }
+
+    .main__conteiner-logo{
+        display: block;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__conteiner-text{
+        width: 50%;
+    }
+
+    .main__logo{
+        width: 80%;
+    }
+
+    .main{
+        display: flex;
+        padding: 15px 30px 60px ;
+    }
+
+    .gallery{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery__img{
+        width: 30%;
+    }
+
+    .contac__form{
+        width: 400px;
+    }
+    
+    .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .cards__card{
+        width: 40%;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1024px){
+    .main{
+        display: flex;
+        padding: 15px 90px 65px;
+    }
+    .main__logo{
+        width: 350px;
+    }
+
+    .gallery{
+        justify-content: space-around;
+    }
+
+    .gallery__img{
+        width: 300px;
+    }
+
+    .contac__title{
+        font-weight: 900;
+    }
+
+    .contac__form{
+        width: 50%;
+    }
+
+    .contac__input lebel {
+        font-size: 20px;
+    }
+
+    .cards__card{
+        width: 400px;
+        height: 440px;
+        margin: 20px 20px;
+    }
+
+    .cards__container-btn{
+        flex-direction: row;
+    }
+
+    .cards__container-btn a {
+        margin-bottom:20px;
+    }
+
+    .footer{
+        height: 150px;
+        align-items: center;
+    }
+
+    .footer__contaider-user,
+    .footer__conteiner-contact{
+        margin: 40px;
+    }
+
+}
