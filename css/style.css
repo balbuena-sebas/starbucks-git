@@ -41,3 +41,33 @@
     font-size: 30px;
     margin: 10px;
 }
+
+.main__conteiner-logo{
+    display: none;
+}
+
+.main{
+    margin-top: 11rem;
+    padding: 15px 15px 60px;
+}
+
+.main__title{
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.main__title span{
+    color: #006241;
+    font-weight: 900;
+}
+
+.main__conteiner-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.main__description{
+    font-weight: 900;
+}
