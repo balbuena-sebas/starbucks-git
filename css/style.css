@@ -155,3 +155,82 @@
     border: 1px solid yellow;
     color: #006241;
 }
+
+.cards__card{
+    background: #006241;
+    margin-top: 45px;
+    color: #fff;
+    position: relative;
+    width: 85%;
+}
+
+.cards{
+    padding:20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__card-img{
+    width: 100%;
+}
+
+.cards__card-title span{
+    color: yellow;
+}
+
+.cards__card-container-text{
+    padding: 25px 15px ;
+}
+
+.cards__card-description{
+    font-size: 14px;
+    margin: 7.5px 0 15px;
+}
+
+.cards__card-btn{
+    background: inherit;
+    font-size: 13px;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 120px;
+    margin-top: 20px;
+    border-radius: 7.5px;
+    padding: 5px 30px;
+    transition: all 0.5s;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.cards__card-btn:hover {
+    background: yellow;
+    border: 1px solid yellow;
+    color: #006241;
+}
+
+.cards__container-btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards__container-btn a{
+    width: 100%;
+    text-align: center;
+    margin: 2px;
+}
+
+.cards__card-circle{
+    background: yellow;
+    width: 65px;
+    height: 65px;
+    color: #0c0c0c;
+    font-weight: 900;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50%;
+    position:absolute;
+    top: -25px;
+    right: -25px;
+}
