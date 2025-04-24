@@ -71,3 +71,17 @@
 .main__description{
     font-weight: 900;
 }
+
+.gallery{
+    background: #006241;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__img{
+    width: 85%;
+    margin-top: 32px;
+}
