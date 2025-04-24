@@ -85,3 +85,73 @@
     width: 85%;
     margin-top: 32px;
 }
+
+.contac{
+    background:#0c0c0c ;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contac__title{
+    color: #006241;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.contac__form{
+    background: #006241;
+    color: #fff;
+    padding:15px;
+    width: 280px;
+}
+
+.contac__input label{
+    font-size: 14px;
+}
+
+.contac__input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.contac__input input::placeholder,
+.contac__input textarea::placeholder{
+    font-size: 12px;
+    color: #006241;
+    font-weight: 900;
+}
+
+.contac__input input,
+.contac__input textarea{
+    padding: 5px;
+    border-radius: 7.5px;
+    border: none;
+}
+
+.contac__input input:focus,
+.contac__input textarea:focus{
+    background: #0c0c0c;
+    color:#fff;
+}
+
+.contac__btn{
+    background: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 45%;
+    margin-top: 20px;
+    border-radius: 7.5px;
+    padding: 4px 0;
+    transition: all 0.5s;
+}
+
+.contac__btn:hover {
+    background: yellow;
+    border: 1px solid yellow;
+    color: #006241;
+}
